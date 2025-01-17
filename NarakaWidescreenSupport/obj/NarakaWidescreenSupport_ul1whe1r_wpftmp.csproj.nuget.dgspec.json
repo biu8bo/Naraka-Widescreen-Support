@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {}
+  },
+  "projects": {
+    "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
+        "projectName": "NarakaWidescreenSupport",
+        "projectPath": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
+        "packagesPath": "C:\\Users\\Xiao\\.nuget\\packages\\",
+        "outputPath": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\DevTools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Xiao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.computesharp.dev/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Hardcodet.NotifyIcon.Wpf": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.425\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
