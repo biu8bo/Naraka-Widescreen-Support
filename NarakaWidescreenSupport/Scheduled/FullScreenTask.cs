@@ -16,7 +16,7 @@ public static class FullScreenTask
     private static readonly Timer _timer = new();
     private static bool _isTimerRunning; //防止定时器重复执行
      
-    private const string AppName = "NARAKA";
+    private const string AppName = "NarakaBladepoint";
     
     private static bool isGameWasSetted;
     public static void Start()
