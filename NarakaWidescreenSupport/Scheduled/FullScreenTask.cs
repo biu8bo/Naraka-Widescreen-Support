@@ -16,9 +16,10 @@ public static class FullScreenTask
     private static readonly Timer _timer = new();
     private static bool _isTimerRunning; //防止定时器重复执行
      
-    private const string AppName = "NarakaBladepoint";
-    
+     private const string AppName = "NarakaBladepoint";
+    //private const string AppName = "chrome";
     private static bool isGameWasSetted;
+    private static Process? _process;
     public static void Start()
     {
         SettingOptions settingOptions = SettingOptions.GetSettingOptions();
@@ -31,10 +32,18 @@ public static class FullScreenTask
             try
             {
                 _isTimerRunning = true;
-                Process? process = Process.GetProcessesByName(AppName).FirstOrDefault();
                 //程序没有运行时还原
-                if (process is null)
+                if(_process is null)
                 {
+                    _process = Process.GetProcessesByName(AppName).FirstOrDefault();
+                    isGameWasSetted = false;
+                    return;
+                }
+
+                if (_process.HasExited)
+                {
+                    _process.Dispose();
+                    _process = null;
                     isGameWasSetted = false;
                     return;
                 }
@@ -43,7 +52,7 @@ public static class FullScreenTask
                 {
                     return;
                 }
-                WindowMode windowMode = FullScreenUtil.GetWindowMode(process);
+                WindowMode windowMode = FullScreenUtil.GetWindowMode(_process);
                 if (windowMode == WindowMode.Fullscreen)
                 {
                     //检测到游戏全屏 -- 开始自适应分辨率
