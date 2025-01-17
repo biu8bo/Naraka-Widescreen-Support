@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CitdQCdRUhw=",
+  "dgSpecHash": "h9djeLX1dWR56Y6b8ZJX6xlmIotYFOfr9IeRN5+kiqAF0t5mLObIXiyo3/SSqLvjazKJ6wB4nuH4JH/6METlHg==",
   "success": true,
-  "projectFilePath": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
+  "projectFilePath": "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Xiao\\.nuget\\packages\\autostartmanager\\1.0.0\\autostartmanager.1.0.0.nupkg.sha512",
-    "C:\\Users\\Xiao\\.nuget\\packages\\costura.fody\\6.0.0\\costura.fody.6.0.0.nupkg.sha512",
-    "C:\\Users\\Xiao\\.nuget\\packages\\fody\\6.8.2\\fody.6.8.2.nupkg.sha512",
-    "C:\\Users\\Xiao\\.nuget\\packages\\hardcodet.notifyicon.wpf\\2.0.1\\hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512",
-    "C:\\Users\\Xiao\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\autostartmanager\\1.0.0\\autostartmanager.1.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\costura.fody\\6.0.0\\costura.fody.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\fody\\6.8.2\\fody.6.8.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\hardcodet.notifyicon.wpf\\2.0.1\\hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": [
     {

@@ -3,6 +3,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // Contact and Information: http://www.hardcodet.net
 
+using System;
 using System.Windows;
 using System.Windows.Input;
 
@@ -19,13 +20,27 @@ namespace NarakaWidescreenSupport.ViewModel
         {
             return Application.Current.MainWindow as MainWindow;
         }
-
+        /// <summary>
+        ///退出程序
+        /// </summary>
+        public ICommand ShowWindowCommand
+        {
+            get { return new DelegateCommand { CommandAction = () =>
+            {
+                MainWindow mainWindow = GetMainWindow();
+                mainWindow.Show();
+            } }; }
+        }
         /// <summary>
         ///退出程序
         /// </summary>
         public ICommand ExitApplicationCommand
         {
-            get { return new DelegateCommand { CommandAction = () => Application.Current.Shutdown() }; }
+            get { return new DelegateCommand { CommandAction = () =>
+            {
+                Application.Current.Shutdown();
+                Environment.Exit(0);
+            } }; }
         }
     }
 }

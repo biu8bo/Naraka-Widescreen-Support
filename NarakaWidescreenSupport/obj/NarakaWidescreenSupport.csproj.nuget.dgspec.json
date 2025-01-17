@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {}
+    "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {}
   },
   "projects": {
-    "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {
+    "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
+        "projectUniqueName": "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
         "projectName": "NarakaWidescreenSupport",
-        "projectPath": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
-        "packagesPath": "C:\\Users\\Xiao\\.nuget\\packages\\",
-        "outputPath": "E:\\ProgramProject\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\obj\\",
+        "projectPath": "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\NarakaWidescreenSupport.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\Naraka-Widescreen-Support\\NarakaWidescreenSupport\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\DevTools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\DevTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Xiao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,9 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://nuget.cdn.azure.cn/v3/index.json": {},
-          "https://pkgs.computesharp.dev/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -84,7 +82,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.425\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
         }
       }
     }

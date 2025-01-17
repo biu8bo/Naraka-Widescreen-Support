@@ -40,7 +40,14 @@ public static class ResolutionUtil
         int result = ChangeDisplaySettings(ref newMode, 0);
         return result == 0;
     }
-
+    public static bool SetDisplay(DevMode devMode)
+    {
+        // 设置新的分辨率
+ 
+        // 更改显示设置
+        int result = ChangeDisplaySettings(ref devMode, 0);
+        return result == 0;
+    }
     /// <summary>
     /// 获取当前系统分辨率
     /// </summary>
@@ -71,7 +78,16 @@ public static class ResolutionUtil
                    };
         return size;
     }
-
+    /// <summary>
+    /// 获取当前系统分辨率
+    /// </summary>
+    /// <returns></returns>
+    public static DevMode GetCurrentResolutionDevMode()
+    {
+        var currentMode = CurrentResolution;
+        
+        return currentMode;
+    }
     /// <summary>
     /// 获取分辨率集合
     /// </summary>

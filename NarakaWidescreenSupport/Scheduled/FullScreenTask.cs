@@ -55,8 +55,9 @@ public static class FullScreenTask
                 WindowMode windowMode = FullScreenUtil.GetWindowMode(_process);
                 if (windowMode == WindowMode.Fullscreen)
                 {
-                    //检测到游戏全屏 -- 开始自适应分辨率
-                    ResolutionSize originalRes = ResolutionUtil.GetCurrentResolution();
+                    //检测到游戏全屏 -- 60秒后开始自适应分辨率
+                    await Task.Delay(TimeSpan.FromSeconds(60));
+                    DevMode originalRes = ResolutionUtil.GetCurrentResolutionDevMode();
                     //设置到1k
                     bool isSet = ResolutionUtil.SetDisplay(ResolutionSize.R1K());
                     if (!isSet)

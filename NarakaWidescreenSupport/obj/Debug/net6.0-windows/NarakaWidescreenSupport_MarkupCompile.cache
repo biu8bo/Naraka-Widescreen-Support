@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\ProgramProject\Naraka-Widescreen-Support\NarakaWidescreenSupport\obj\Debug\net6.0-windows\
+E:\projects\Naraka-Widescreen-Support\NarakaWidescreenSupport\obj\Debug\net6.0-windows\
 NarakaWidescreenSupport
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\ProgramProject\Naraka-Widescreen-Support\NarakaWidescreenSupport\App.xaml
+E:\projects\Naraka-Widescreen-Support\NarakaWidescreenSupport\App.xaml
 2-1802787704
 11098520618
 14-1521033431
-2061042437327
+206501096728
 MainWindow.xaml;Resource\NotifyIconResources.xaml;
 
 False
